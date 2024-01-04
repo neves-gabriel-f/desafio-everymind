@@ -1,0 +1,24 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F6F9;
+    overflow: hidden;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75rem;
+    height: 100vh;
+    margin: 0rem auto;
+    margin-top: 2vh;
+    padding: 0rem 3.5rem;
+    /* border: solid 2px red; */
+    position: relative;
+    z-index: 0;
+}

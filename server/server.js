@@ -29,18 +29,19 @@ app.get('/products', async (req, res) => {
 })
 
 app.post('/products', async (req, res) => {
+    const id_do_produto  = req.body.id_do_produto
     const nome_do_produto  = req.body.nome_do_produto
     const codigo_do_produto = req.body.codigo_do_produto
     const descricao_do_produto = req.body.descricao_do_produto
     const preco_do_produto = req.body.preco_do_produto
     // Cria um novo registro e o atribui à uma constante chamada product
-    const product = await Product.create({
+    const product = await Product.create( {
+        id_do_produto: id_do_produto,
         nome_do_produto: nome_do_produto,
         codigo_do_produto: codigo_do_produto,
         descricao_do_produto: descricao_do_produto,
         preco_do_produto: preco_do_produto
     })
-    product.save()
     return res.send(product)
 })
 

@@ -1,0 +1,60 @@
+form {
+    width: 100%;
+    max-width: 78.9375rem;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border-radius: .25rem;
+    border: solid .0625rem #DCDCE4;
+    padding: 1rem 2rem;
+}
+.form-header {
+    width: 100%;
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.form-header .header-desc {
+    display: flex;
+    align-items: center;
+    color: #32324D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'SF Pro Display', 'sans-serif';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem; /* 125% */
+    margin-bottom: 1.5rem;
+}
+.form-control {
+    margin-bottom: 1.25rem;
+}
+.submit-button {
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .625rem 1rem;
+    padding-right: 1.5rem;
+    gap: 0rem .5rem;
+    border-radius: .375rem;
+    background-color: #4945FF;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'SF Pro Text', 'sans-serif';
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem; 
+    outline: none;
+    border: none;
+    transition: .2s ease-in-out;
+}
+.submit-button:hover {
+    background-color: #7B79FF;
+}
+.submit-button:active {
+    background-color: #271FE0;
+}

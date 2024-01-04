@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    flex: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0rem;
+    height: 8.375rem;
+}
+
+.header-desc .title{
+    color: #32324D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'SF Pro Display', 'sans-serif';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem; /* 125% */
+}
+
+.header-desc .all-product-entries{
+    color:#666687;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'SF Pro Text', 'sans-serif';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    margin-top: -0.25rem;
+}
+
+.header-input-area .header-button {
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .625rem 1rem;
+    padding-right: 1.5rem;
+    gap: 0rem .5rem;
+    border-radius: .375rem;
+    background-color: #4945FF;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'SF Pro Text', 'sans-serif';
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem; 
+    outline: none;
+    border: none;
+    transition: .2s ease-in-out;
+}
+.header-input-area .header-button:hover {
+    background-color: #7B79FF;
+}
+.header-input-area .header-button:active {
+    background-color: #271FE0;
+}
+
